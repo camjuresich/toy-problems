@@ -12,3 +12,4 @@ test('Should return zero for \"abc\", \"d\"', () => {
 test('Should return one for the input \"arostienaoirengivnnngtomgpfklkvnekrkstjl\", \"omg\"', () => {
     expect(naiveSubStringSearch('arostienaoirengivnnngtomgpfklkvnekrkstjl', 'omg')).toBe(1)
 })
+
